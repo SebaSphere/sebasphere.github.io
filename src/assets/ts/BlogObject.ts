@@ -1,14 +1,16 @@
+import type { Component } from 'vue'
+
 export class BlogFileList {
     blogDetails: BlogInformation[] = [];
 
     constructor() {
-        const files = import.meta.glob('@/assets/blog/*', { eager: true, query: '?raw', import: 'default' }) as Record<string, string>;
+        const files = import.meta.glob('@/assets/blog/*', { eager: true, import: 'default' }) as Record<string, Component>;
         const entries = Object.entries(files).sort((a, b) => a[0].localeCompare(b[0]));
         for (let i = 0; i < entries.length; i++) {
             const entry = entries[i];
             if (entry) {
-                const [path, content] = entry;
-                const blog = new BlogInformation(path, content);
+                const [path, component] = entry;
+                const blog = new BlogInformation(path, component);
                 blog.id = (i + 1).toString();
                 this.blogDetails.push(blog);
             }
@@ -21,12 +23,12 @@ export class BlogInformation {
     id: string = "";
     title: string = "";
     date: Date = new Date()
-    contentRaw: string = "";
     tags: Array<string> = new Array<string>()
+    component: Component | null = null
 
-    constructor(path: string, content: string) {
+    constructor(path: string, component: Component) {
         this.path = path
-        this.contentRaw = content
+        this.component = component
 
         // Extract filename from path
         const filename = path.split('/').pop() || "";

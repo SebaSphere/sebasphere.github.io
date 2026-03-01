@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 import { BlogFileList } from '@/assets/ts/BlogObject';
-import { VueMarkdownIt } from '@f3ve/vue-markdown-it';
 import { computed } from 'vue';
 
 const route = useRoute();
@@ -25,7 +24,7 @@ const blog = computed(() => {
         </span>
       </div>
     </div>
-    <VueMarkdownIt :source="blog.contentRaw" />
+    <component v-if="blog.component" :is="blog.component" />
   </div>
   <div v-else>
     <p>Blog not found.</p>
@@ -36,5 +35,8 @@ const blog = computed(() => {
 <style scoped>
 .blog-content {
   padding: 2rem 0;
+}
+.blog-content :deep(p) {
+  margin-bottom: 20px;
 }
 </style>
