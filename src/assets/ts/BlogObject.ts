@@ -3,7 +3,8 @@ export class BlogFileList {
 
     constructor() {
         const files = import.meta.glob('@/assets/blog/*', { eager: true, query: '?raw', import: 'default' }) as Record<string, string>;
-        for (const path in files) {
+        const sortedPaths = Object.keys(files).sort();
+        for (const path of sortedPaths) {
             this.blogDetails.push(new BlogInformation(path, files[path]!))
         }
     }
