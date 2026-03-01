@@ -21,5 +21,4 @@
 </template>
 
 <style scoped>
-/* Any home-specific styles can go here */
 </style>
