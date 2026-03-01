@@ -3,9 +3,15 @@ export class BlogFileList {
 
     constructor() {
         const files = import.meta.glob('@/assets/blog/*', { eager: true, query: '?raw', import: 'default' }) as Record<string, string>;
-        const sortedPaths = Object.keys(files).sort();
-        for (const path of sortedPaths) {
-            this.blogDetails.push(new BlogInformation(path, files[path]!))
+        const entries = Object.entries(files).sort((a, b) => a[0].localeCompare(b[0]));
+        for (let i = 0; i < entries.length; i++) {
+            const entry = entries[i];
+            if (entry) {
+                const [path, content] = entry;
+                const blog = new BlogInformation(path, content);
+                blog.id = (i + 1).toString();
+                this.blogDetails.push(blog);
+            }
         }
     }
 }
@@ -22,9 +28,6 @@ export class BlogInformation {
         this.path = path
         this.contentRaw = content
 
-        // Generate a simple hash based on the path
-        this.id = this.hashString(path);
-        
         // Extract filename from path
         const filename = path.split('/').pop() || "";
         
@@ -43,15 +46,5 @@ export class BlogInformation {
                 this.tags = rawTags;
             }
         }
-    }
-
-    private hashString(str: string): string {
-        let hash = 0;
-        for (let i = 0; i < str.length; i++) {
-            const char = str.charCodeAt(i);
-            hash = ((hash << 5) - hash) + char;
-            hash |= 0; // Convert to 32bit integer
-        }
-        return Math.abs(hash).toString(16);
     }
 }
