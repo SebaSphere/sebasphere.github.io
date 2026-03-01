@@ -12,6 +12,7 @@ export class BlogFileList {
 
 export class BlogInformation {
     path: string
+    id: string = "";
     title: string = "";
     date: Date = new Date()
     contentRaw: string = "";
@@ -20,6 +21,9 @@ export class BlogInformation {
     constructor(path: string, content: string) {
         this.path = path
         this.contentRaw = content
+
+        // Generate a simple hash based on the path
+        this.id = this.hashString(path);
         
         // Extract filename from path
         const filename = path.split('/').pop() || "";
@@ -39,5 +43,15 @@ export class BlogInformation {
                 this.tags = rawTags;
             }
         }
+    }
+
+    private hashString(str: string): string {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            const char = str.charCodeAt(i);
+            hash = ((hash << 5) - hash) + char;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return Math.abs(hash).toString(16);
     }
 }

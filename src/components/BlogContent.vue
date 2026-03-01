@@ -7,13 +7,9 @@ import { computed } from 'vue';
 const route = useRoute();
 const blogFileList = new BlogFileList();
 
-const blogIndex = computed(() => {
-  const id = Array.isArray(route.params.id) ? route.params.id[0] : route.params.id;
-  return parseInt(id) - 1;
-});
-
 const blog = computed(() => {
-  return blogFileList.blogDetails[blogIndex.value];
+  const id = Array.isArray(route.params.id) ? route.params.id[0] : route.params.id;
+  return blogFileList.blogDetails.find(b => b.id === id);
 });
 </script>
 

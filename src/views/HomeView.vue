@@ -5,10 +5,6 @@
 
   const blogFileList = new BlogFileList();
   const router = useRouter();
-
-  function goToBlog(index: number) {
-    router.push(`/content/${index + 1}`);
-  }
 </script>
 
 <template>
@@ -18,7 +14,7 @@
     <p>Aiming for monthly updates, always welcome to provide your thoughts at me@sebastianb.dev or my discord username "SebaSphere"</p>
     <br>
     <h1>My most recent posts</h1>
-    <div v-for="(blog, index) in blogFileList.blogDetails" :key="blog.path" @click="goToBlog(index)">
+    <div v-for="blog in blogFileList.blogDetails" :key="blog.path" @click="router.push(`/content/${blog.id}`)">
       <blog-title :blog-information="blog"></blog-title>
     </div>
   </main>
