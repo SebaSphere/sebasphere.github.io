@@ -37,7 +37,7 @@ export class BlogInformation {
             const nameWithoutExtension = filename.substring(0, filename.length - 3)
             const rawInput = nameWithoutExtension.split('_');
 
-            // Example: "02-28-2026_This is the title_tech,life,rant.md"
+            // Example: "02-28-2026_Homelab thoughts, my woke takes, and robotic shenanigans_tech,life,rant.md"
             const [datePart = "", titlePart = "", tagPart = ""] = rawInput;
 
             if (rawInput.length >= 3) {
