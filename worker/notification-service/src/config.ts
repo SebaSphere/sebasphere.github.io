@@ -1,5 +1,5 @@
 export const CONFIG = {
-	repo: "SebaSphere/blog",
+	repo: "SebaSphere/sebasphere.github.io",
 	blogDir: "src/assets/blog",
 	siteUrl: "https://sebasphere.github.io/blog",
 	feed: {
