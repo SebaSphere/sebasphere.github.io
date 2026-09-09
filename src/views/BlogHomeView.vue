@@ -12,7 +12,7 @@
   <div class="blog">
     <p>This is a small blog I've made just to document cool things I've found or doing, general life events, and anything else I have in mind.</p>
     <br>
-    <p>Aiming for monthly updates, always welcome to provide your thoughts at me@sebastianb.dev or my discord username "SebaSphere"</p>
+    <p>Aiming for monthly updates, always welcome to provide your thoughts at seb@thesphere.dev or my discord username "spheredev"</p>
     <br>
     <p>Opinions and takes are my own</p>
     <br>
