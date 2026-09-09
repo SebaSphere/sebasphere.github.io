@@ -17,7 +17,7 @@
     <p>Opinions and takes are my own</p>
     <br>
     <h1>My most recent posts</h1>
-    <div v-for="blog in blogFileList.blogDetails" :key="blog.path" @click="router.push(`/content/${blog.id}`)">
+    <div v-for="blog in blogFileList.blogDetails" :key="blog.path" @click="router.push(`/blog/content/${blog.id}`)">
       <blog-title :blog-information="blog" class="blog-title"></blog-title>
     </div>
     <div class="rss-footer">
