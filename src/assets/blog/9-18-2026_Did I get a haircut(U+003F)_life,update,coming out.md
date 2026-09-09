@@ -56,7 +56,7 @@ I think therapy has been a good change for me though as it's allowed me the brea
 Something that I feel isn't communicated enough but therapy isn't about "fixing" what's wrong with you but rather understanding new perspectives on oneself from a outside view.
 
 # proceeding forward
-I expect this to be sort of a living document as , here's various information on the now logistics 
+I expect this to be sort of a living document while there's any bigger progress updates, here's various information on the now logistics 
 
 name: Seb is fine compared to my legal name, I prefer this in professional contexts as of this moment. I like the name Sienna too but I have some slight brainworms on using it more (I'm getting more used to it though in very certain contexts, I used it at Taco Bell the other day!)
 ![taco sienna](/images/taco_sienna.jpg)
