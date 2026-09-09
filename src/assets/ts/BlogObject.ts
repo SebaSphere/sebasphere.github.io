@@ -1,4 +1,5 @@
 import type { Component } from 'vue'
+import { BLOG_LOCKS } from '@/assets/ts/BlogLocks.ts'
 
 export class BlogFileList {
     blogDetails: BlogInformation[] = [];
@@ -25,6 +26,9 @@ export class BlogInformation {
     date: Date = new Date()
     tags: Array<string> = new Array<string>()
     component: Component | null = null
+    locked: boolean = false
+    password: string = ""
+    filename: string = ""
 
     constructor(path: string, component: Component) {
         this.path = path
@@ -32,6 +36,12 @@ export class BlogInformation {
 
         // Extract filename from path
         const filename = path.split('/').pop() || "";
+        this.filename = filename;
+
+        if (BLOG_LOCKS[filename]) {
+            this.locked = true;
+            this.password = BLOG_LOCKS[filename];
+        }
         
         if (filename.endsWith(".md")) {
             const nameWithoutExtension = filename.substring(0, filename.length - 3)

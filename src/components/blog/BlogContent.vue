@@ -3,6 +3,7 @@ import { useRoute } from 'vue-router';
 import { BlogFileList } from '@/assets/ts/BlogObject.ts';
 import { computed } from 'vue';
 import 'giscus';
+import PasswordLock from '@/components/blog/PasswordLock.vue';
 
 const route = useRoute();
 const blogFileList = new BlogFileList();
@@ -26,28 +27,54 @@ const blog = computed(() => {
           </span>
         </div>
       </div>
-      <component v-if="blog.component" :is="blog.component" />
+
+      <template v-if="blog.locked">
+        <password-lock :filename="blog.filename" :password="blog.password">
+          <component v-if="blog.component" :is="blog.component" />
+          <div class="mt-8">
+            <giscus-widget
+                id="comments"
+                repo="SebaSphere/blog"
+                repoid="R_kgDORbZ9cA"
+                category="Blog Content"
+                categoryid="DIC_kwDORbZ9cM4C51V6"
+                mapping="pathname"
+                strict="0"
+                reactionsenabled="1"
+                emitmetadata="0"
+                inputposition="top"
+                theme="preferred_color_scheme"
+                lang="en"
+                loading="lazy"
+            ></giscus-widget>
+          </div>
+        </password-lock>
+      </template>
+
+      <template v-else>
+        <component v-if="blog.component" :is="blog.component" />
+        <div class="mt-8">
+          <giscus-widget
+              id="comments"
+              repo="SebaSphere/blog"
+              repoid="R_kgDORbZ9cA"
+              category="Blog Content"
+              categoryid="DIC_kwDORbZ9cM4C51V6"
+              mapping="pathname"
+              strict="0"
+              reactionsenabled="1"
+              emitmetadata="0"
+              inputposition="top"
+              theme="preferred_color_scheme"
+              lang="en"
+              loading="lazy"
+          ></giscus-widget>
+        </div>
+      </template>
     </div>
     <div v-else>
       <p>Blog not found.</p>
       <router-link to="/blog">Back to home</router-link>
-    </div>
-    <div v-if="blog" class="mt-8">
-      <giscus-widget
-          id="comments"
-          repo="SebaSphere/blog"
-          repoid="R_kgDORbZ9cA"
-          category="Blog Content"
-          categoryid="DIC_kwDORbZ9cM4C51V6"
-          mapping="pathname"
-          strict="0"
-          reactionsenabled="1"
-          emitmetadata="0"
-          inputposition="top"
-          theme="preferred_color_scheme"
-          lang="en"
-          loading="lazy"
-      ></giscus-widget>
     </div>
   </div>
 </template>

@@ -10,7 +10,7 @@ I like writing about my life and thoughts but I feel this entry will be very per
 
 I've been transitioning on male to female hormones since the end of November 2025. I don't know, I'd like to be perceived as more feminine but it's still a very very scary and frightening change to be "out" to people. Especially for those that know me personally and have interacted with me to some degree, you could make your own thoughts about it but you're probably right for your immediate intuition. Please ask your direct yes or no questions though for those that know me!
 
-This could be the autistic part of me, another thing I've learned about myself from working with my therapist (AuDHD probably, still need to stop procrastinating on seeing a psychologist for exact diagnosis) but I've recognized I much struggle with opening up on my inner thoughts.
+This could be the autistic part of me, another thing I've learned about myself from working with my therapist (AuDHD probably, still need to stop procrastinating and schedule a full neurological exam for exact diagnosis) but I've recognized I much struggle with opening up on my inner thoughts.
 
 # did I get a haircut?
 Per the title of the entry, I did not get a haircut. It's funny because this is the main question I can clearly remember being asked by my roommate when I had not gotten one. I could be self-conscious or something on this, but I found that hilarious it's the main thing that's been brought up from someone that sees me on a day-to-day basis. Speaking of haircuts, the main changes I've really liked in terms of physical appearance would be smoother skin, much less acne than before, and a slimmer waist in the parts I want.
@@ -24,14 +24,9 @@ This relates back to the first quote in a sense but I do cosmetic things for the
 # thoughts brewing in the cauldron
 I've contemplated including this section but gender divergence of sorts has kind of been a thought in my head for a long time, even if I didn't necessarily have the words to describe it. I think at first, I realized more about myself not being straight around late 2021. I don't identify under this anymore but to give some context, I was raised as a Catholic and went to a Catholic private school for middle and highschool so these type of things weren't really discussed in any positive context. Meeting other people that have that same sense of queer identity and finding the right people I can talk with on those type of things helped me understand that I'm not exactly straight. My transition has kind of been a thing in the back of my mind too since I realized it's something I'm actually able to do but it's scary making big changes to the people around in your life.
 
-Labels at the end of the day aren't really important and it's something I've always felt but they're still important to learn more about yourself with skeptical intuitiveness on what's right and wrong about it. I don't think I owe anyone an explanation on why but it's been in the pot for awhile, even thinking about events and characteristics of me before the realization. Everyone's reasons are different and I know it definitely is for me but my friend Alexa's blog has a small list on her context clues [here](https://alxa.dev/blog/2026-06-26_this_was_hard)
+Labels at the end of the day aren't really important and it's something I've always felt but they're still important to learn more about yourself with skeptical intuitiveness on what's right and wrong about it. I don't think I owe anyone an explanation on why but it's been in the pot for awhile, even thinking about events and characteristics of me before the realization. Everyone's reasons are different and I know it definitely is for me but my friend Alexa's blog has a small list on her context clues I see a lot of similarities [here](https://alxa.dev/blog/2026-06-26_this_was_hard)
 
 I don't know, gender is kind of a secondary thing for me and I guess right now I feel like some sort of silly creature. Clothing, activities, and things of that nature don't have a gender and they're socially put by society.
-
-# political and societal impacts
-While this journey is an amazing change for my physique and well-being, I think it would be a disservice not to write about this. Right now, society wise it isn't an objectively super great time to be queer of any sort.
-
-AAAHH THIS IS NOT DONE THIS SECTION AND I'M STILL WORKING ON THIS (i will lock in eventually)
 
 # the interesting science of hormones + the effects on me
 One of the main reasons I started HRT was the effect it has on mood. I had tried a 3-day supply of estrogen from a friend's supply near the beginning of that month. What stuck out to me was that sense of calmness and serenity it had on my mood. I remember waiting at the airport for my plane back to Florida with a sense of happiness just for the world in general. This is the main turning point for me making this decision with my life and I'm happy I did.
@@ -42,6 +37,12 @@ Another subtle change that I found interesting I only noticed till it was direct
 
 ## neurodivergence and therapy
 I've been working through therapy since April of this year, which one of the things I've come to realize is I probably have Autism, ADHD, and probably OCD. I'm honestly still not sure on the OCD, maybe the purely O part of it since I can be obsessive on my work to sometimes an unhealthy degree, forgetting about my basic needs. I remember actually leaving one of my sessions and having a laughing fit after with a paper that has a ven-diagram with OCD, ADHD, and ASD. Since these are neurological aspects of the brain, these share a lot of the same neurological pathways from my understanding.
+
+This is still in the works since diagnoses are long and expensive but I'll definitely give the picture framed seal of approval once all paperwork is done. In terms of the now updates, I know my therapist has said she's pretty sure on some sort of neurodivergent (one that brought up could be AuDHD combo package) and my psychiatrist has said she's pretty sure predominantly inattentive ADHD too so aiming on that but tbh I see the AuDHD combo package making sense.
+
+Overall though, I'd say these are just labels at the end of the day and each person is a beautiful and unique person (quote from a future roomfie Cherry at [https://pawing.party/](https://pawing.party/))
+
+Neurodivergence is all a spectrum so there's going to be specific traits and attributes people do better or worse at then others.
 
 > I WON THE MENTAL DISORDER LOTTERY WOOOO!
 - me to a friend after finding out
@@ -55,11 +56,11 @@ I think therapy has been a good change for me though as it's allowed me the brea
 Something that I feel isn't communicated enough but therapy isn't about "fixing" what's wrong with you but rather understanding new perspectives on oneself from a outside view.
 
 # proceeding forward
-I expect this to be sort of a living document until I fully publicly release this but as of right now, here's various information on the now logistics 
+I expect this to be sort of a living document as , here's various information on the now logistics 
 
-name: Seb is fine compared to my legal name. I have a more feminine name in mind but the thought of using that outside very specific online spaces frightens me a bit.
-![img.png](img.png)
-pronounces: any or ask for preferences is fine. I have a heavy preference for just my name in specific contexts. If you must use pronouns and don't know me as well, "they/them" is fine, I'm meh about more masculine pronouns/references about me but I can tolerate it.
+name: Seb is fine compared to my legal name, I prefer this in professional contexts as of this moment. I like the name Sienna too but I have some slight brainworms on using it more (I'm getting more used to it though in very certain contexts, I used it at Taco Bell the other day!)
+![taco sienna](/images/taco_sienna.jpg)
+pronounces: any or ask for preferences is fine. I have a heavy preference for just my name in specific contexts. If you must use pronouns and don't know me as well, "they/them" is fine, I'm meh about more masculine pronouns/references about me but I can tolerate it (I'd just prefer not, see my [pronouns.page](https://en.pronouns.page/@spheredev)!). 
 
 Thanks for reading my random stream of consciousness, definitely not very cisgender of me I know 😭
 ![not very cis](https://media.tenor.com/XdJkZwJ24vkAAAAd/not-very-cis-not-cis.gif)
