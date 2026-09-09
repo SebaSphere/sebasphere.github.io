@@ -56,7 +56,7 @@ const blog = computed(() => {
         <div class="mt-8">
           <giscus-widget
               id="comments"
-              repo="SebaSphere/blog"
+              repo="SebaSphere/sebasphere.github.io"
               repoid="R_kgDORbZ9cA"
               category="Blog Content"
               categoryid="DIC_kwDORbZ9cM4C51V6"
