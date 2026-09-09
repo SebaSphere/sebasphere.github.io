@@ -11,7 +11,7 @@ const input = ref('');
 const error = ref(false);
 
 function attempt() {
-  if (input.value === props.password) {
+  if (input.value.trim() === props.password) {
     unlocked.value = true;
     error.value = false;
   } else {
