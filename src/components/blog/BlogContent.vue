@@ -34,7 +34,7 @@ const blog = computed(() => {
           <div class="mt-8">
             <giscus-widget
                 id="comments"
-                repo="SebaSphere/blog"
+                repo="SebaSphere/sebasphere.github.io"
                 repoid="R_kgDORbZ9cA"
                 category="Blog Content"
                 categoryid="DIC_kwDORbZ9cM4C51V6"
@@ -42,7 +42,7 @@ const blog = computed(() => {
                 strict="0"
                 reactionsenabled="1"
                 emitmetadata="0"
-                inputposition="top"
+                inputposition="bottom"
                 theme="preferred_color_scheme"
                 lang="en"
                 loading="lazy"
@@ -64,7 +64,7 @@ const blog = computed(() => {
               strict="0"
               reactionsenabled="1"
               emitmetadata="0"
-              inputposition="top"
+              inputposition="bottom"
               theme="preferred_color_scheme"
               lang="en"
               loading="lazy"
