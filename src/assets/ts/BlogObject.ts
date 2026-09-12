@@ -12,14 +12,14 @@ export class BlogFileList {
             if (entry) {
                 const [path, component] = entry;
                 const blog = new BlogInformation(path, component);
-                blog.id = (i + 1).toString();
                 this.blogDetails.push(blog);
             }
-            // Sort by date from newest to oldest
-            this.blogDetails.sort(
-                (a, b) =>
-                    b.date.getTime() - a.date.getTime()
-            );
+        }
+        // Sort by date from oldest to newest
+        this.blogDetails.sort((a, b) => a.date.getTime() - b.date.getTime());
+        for (let i = 0; i < this.blogDetails.length; i++) {
+            const blog: BlogInformation = this.blogDetails[i];
+            blog.id = (i + 1).toString();
         }
     }
 }
