@@ -15,6 +15,11 @@ export class BlogFileList {
                 blog.id = (i + 1).toString();
                 this.blogDetails.push(blog);
             }
+            // Sort by date from newest to oldest
+            this.blogDetails.sort(
+                (a, b) =>
+                    b.date.getTime() - a.date.getTime()
+            );
         }
     }
 }
